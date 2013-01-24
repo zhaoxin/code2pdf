@@ -1,7 +1,6 @@
 code2pdf
 ========
 
-<<<<<<< HEAD
 Convert source code files to PDF with Google Drive API.  
 Source code files are uploaded to Google Drive and downloaded back to local computer as PDF files.
 
@@ -42,6 +41,3 @@ For example, for C language and its header file:
 
 #### Note
 The script will create a folder named "code2pdf" in your Google Drive and do all the conversion work in it. You can remove it as you like and the script will create it at next run time. 
-=======
-Convert source code to PDF with Google Drive API
->>>>>>> 0b3b832f41581520baddaf1d12029f2af2c6afc1
