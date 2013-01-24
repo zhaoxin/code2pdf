@@ -33,6 +33,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+<<<<<<< HEAD
 
 # code2dpf
 pdf
@@ -40,3 +41,5 @@ pdf
 *.PDF
 client_secrets.json
 
+=======
+>>>>>>> 0b3b832f41581520baddaf1d12029f2af2c6afc1
