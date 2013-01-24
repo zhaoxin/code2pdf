@@ -51,7 +51,7 @@ class Code2PDF():
 		print "\tProcess \"%s\"..." % fn,
 		rslt = ""
 		full_path = os.path.join(folder, fn)
-		pdf_path = os.path.join(self.dest if self.dest else folder, os.path.splitext(fn)[0]+".pdf")
+		pdf_path = os.path.join(self.dest if self.dest else "pdf", os.path.splitext(fn)[0]+".pdf")
 		media_body = MediaFileUpload(full_path, mimetype="text/plain", resumable=True)
 		body = {
 		  "title": fn,
