@@ -111,6 +111,8 @@ if __name__ == "__main__":
 		start = True
 
 	if start:
+		if not os.path.exists("pdf"):
+			os.mkdir("pdf")
 		code2pdf = Code2PDF(args[1], args[2] if len(args) > 2 else None)
 		code2pdf.authorize()
 		code2pdf.process()
